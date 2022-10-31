@@ -1,21 +1,21 @@
-// Dependencies 
-const express = require('express');
-const routes = require('./routes');
+// Enable access to .env variables
+require('dotenv').config();
 
-// Start server and use port 3001
-const app = express()
-const PORT = process.env.PORT || 3001;
+const Sequelize = require('sequelize');
 
-
-// Middleware to complete response - request cycle
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-// Turn on routes
-app.use(routes)
-
-// Sync sequelize models to the database and turn on server
-app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}!`);
+// Use environment variables to connect to database
+const sequelize = new Sequelize(
+  process.env.DB_NAME,
+  process.env.DB_USER,
+  process.env.DB_PASSWORD,
+  {
+    host: 'localhost',
+    dialect: 'mysql',
+    dialectOptions: {
+      decimalNumbers: true,
+    },
   });
+
+  module.exports = sequelize;
+
 
