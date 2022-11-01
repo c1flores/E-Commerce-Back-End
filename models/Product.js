@@ -35,6 +35,8 @@ Product.init(
         },
         category_id: {
             type: DataTypes.INTEGER,
+
+            //references the category model's id
             references: {
                 mode: 'category',
                 ley: 'id'
