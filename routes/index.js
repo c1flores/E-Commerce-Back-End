@@ -4,7 +4,7 @@ const apiRoutes = require('./api');
 
 
 // Create modular route handlers
-router.use('./api', apiRoutes);
+router.use('/api', apiRoutes);
 
 router.use((req, res) => {
     res.send("<h1>Wrong Route<h1>")

@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "A Node-js based e-commerce backend implementation.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1flores/E-Commerce-Back-End.git"
+  },
+  "author": "Christian Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c1flores/E-Commerce-Back-End/issues"
+  },
+  "homepage": "https://github.com/c1flores/E-Commerce-Back-End#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "inquirer": "^9.1.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
+}

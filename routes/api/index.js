@@ -1,8 +1,8 @@
 // Dependencies
 const router = require('express').Router();
-const categoryRoutes = require('./categoryRouter');
-const productRoutes = require('./productRouter');
-const tagRoutes = require('./tagRouter');
+const categoryRoutes = require('./category-routes');
+const productRoutes = require('./product-routes');
+const tagRoutes = require('./tag-routes');
 
 // Create modular route handlers
 router.use('/categories', categoryRoutes);
