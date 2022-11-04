@@ -39,7 +39,7 @@ Product.init(
             //references the category model's id
             references: {
                 mode: 'category',
-                ley: 'id'
+                key: 'id'
             }
         }
     },
