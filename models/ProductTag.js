@@ -29,7 +29,7 @@ ProductTag.init(
 
             //references the tag model's id
             references: {
-                model: 'product',
+                model: 'tag',
                 key: 'id'
             }
         } 

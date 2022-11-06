@@ -38,7 +38,7 @@ Product.init(
 
             //references the category model's id
             references: {
-                mode: 'category',
+                model: 'category',
                 key: 'id'
             }
         }
