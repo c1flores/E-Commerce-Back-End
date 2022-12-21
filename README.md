@@ -22,7 +22,7 @@
 
 ## Installation
 
-  1. Fork repository.
+  1. Fork and clone repository to local machine.
   2. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
