@@ -23,13 +23,14 @@
 ## Installation
 
   1. Fork and clone repository to local machine.
-  2. Run ```npm i``` to install dependencies in local project directory.
+  2. Run integrated terminal in personal IDE.
+  3. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
 
   1. Create database via command-line or in MySQL GUI.
   2. Insert synthetic "seed" data via command line or in MySQL GUI.
-  3. Open integrated terminal in IDE if haven't already.
+  3. Open integrated terminal in IDE.
   4. Run ```my sql -u root -p```.
   5. Enter MySQL GUI password.
   6. Run ```source ./db/schema.sql```.
