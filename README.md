@@ -22,28 +22,18 @@
 
 ## Installation
 
-  - Fork repository
-  - Setup Node project
-  - Install dependencies
-  - Ensure dotenv package is installed
-  - Ensure express package is installed
-  - Ensure mysql2 package is installed
-  - Ensure sequelize package is installed
+  1. Fork repository.
+  2. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
 
-  - Create database via command-line or in MySQL GUI
-  - Insert synthetic "seed" data via command line or in MySQL GUI
-  - Open integrated terminal in IDE if haven't already
-  - Run "npm i init"
-  - Run "npm i dotenv"
-  - Run "npm i express"
-  - Run "npm i mysql2"
-  - Run "npm i sequelize"
-  - Run "my sql -u root -p"
-  - Enter MySQL GUI password
-  - Run "source ./db/schema.sql" 
-  - Run "exit"
-  - Run "npm run seed"
-  - Run "npm start"
-  - Test endpoints in API tester tool such as [Insomnia](https://insomnia.rest/)
+  1. Create database via command-line or in MySQL GUI.
+  2. Insert synthetic "seed" data via command line or in MySQL GUI.
+  3. Open integrated terminal in IDE if haven't already.
+  4. Run ```my sql -u root -p```.
+  5. Enter MySQL GUI password.
+  6. Run ```source ./db/schema.sql```.
+  7. Run ```exit```.
+  8. Run ```npm run seed```.
+  9. Run ```npm start```.
+  10. Test endpoints in API tester tool such as [Insomnia](https://insomnia.rest/).
