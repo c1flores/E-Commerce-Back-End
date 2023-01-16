@@ -1,7 +1,8 @@
 # Table of Contents
 
   - [Overview](#overview)
-  - [Why does object relational mapping matter?](#why-does-object-relational-mapping-matter?)
+  - [Why does object relational mapping matter?](#why-does-object-relational-mapping-matter)
+  - [Technologies Used](#technologies-used)
   - [Screen Capture](#screen-capture)
   - [Link to Screen Recording of Application](#link-to-screen-recording-of-application)
   - [Installation](#installation)
