@@ -13,14 +13,8 @@
 
 ## Why does object relational mapping matter?
  Today, the majority of applications are written in OOP language and at the same time persist their data in relational databases. Due to this fundamental paradigm mismatch, a need for a more harmonic way to communicate between them arose. Object relational mapping allows one to call and manipulate data from the database using your language of choice instead of SQL.
-
-## Screen Capture
-![](https://user-images.githubusercontent.com/81927296/200155718-b33fa1bf-6313-4db9-8ad2-cafcbf984e17.gif)
-
-## Link to Screen Recording of Application
-[Google Drive Link](https://drive.google.com/file/d/1Dbh4QWcO7Wmhn6AkF-OH7cngSzKeRiR3/view?usp=share_link)
-
- ## Technologies Used
+ 
+  ## Technologies Used
 <div style="display: inline_block"><br>
   <img height="40" align="center" alt="Chris-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,6 +33,12 @@
 </div>
   
 </br>
+
+## Screen Capture
+![](https://user-images.githubusercontent.com/81927296/200155718-b33fa1bf-6313-4db9-8ad2-cafcbf984e17.gif)
+
+## Link to Screen Recording of Application
+[Google Drive Link](https://drive.google.com/file/d/1Dbh4QWcO7Wmhn6AkF-OH7cngSzKeRiR3/view?usp=share_link)
 
 ## Installation
 
