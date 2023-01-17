@@ -1,5 +1,9 @@
-# Table of Contents
 
+<!-- omit in toc -->
+# E-Commerce-Back-End
+
+<!-- omit in toc -->
+## Table of Contents
   - [Overview](#overview)
   - [What is Object Relational Mapping?](#what-is-object-relational-mapping)
   - [Technologies Used](#technologies-used)
@@ -42,13 +46,11 @@
 [Link](https://drive.google.com/file/d/1Dbh4QWcO7Wmhn6AkF-OH7cngSzKeRiR3/view?usp=share_link)
 
 ## Installation
-
   1. Fork and clone repository to local machine.
   2. Run integrated terminal in personal IDE.
   3. Run ```npm i``` to install dependencies in local project directory.
   
 ## Usage
-
   1. Create database via command-line or in MySQL GUI.
   2. Insert synthetic "seed" data via command line or in MySQL GUI.
   3. Open integrated terminal in personal IDE.
